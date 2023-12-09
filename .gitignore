@@ -18,6 +18,8 @@
 # misc
 .DS_Store
 *.pem
+.yarn/install-state.gz
+
 
 # debug
 npm-debug.log*
