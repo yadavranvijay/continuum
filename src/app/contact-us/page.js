@@ -11,7 +11,7 @@ export default function ContactForm() {
     };
 
     // Send the form data to your API route
-    const response = await fetch('/contact-us/api/sendmail', {
+    const response = await fetch('/api/sendmail', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
