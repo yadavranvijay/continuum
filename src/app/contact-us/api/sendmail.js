@@ -1,3 +1,5 @@
+"use client"
+
 // pages/api/sendmail.js
 import nodemailer from 'nodemailer';
 
