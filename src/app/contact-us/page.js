@@ -17,7 +17,7 @@ export default function ContactForm() {
     });
 
     const data = await response.json();
-    console.log(data); // Handle the response
+    console.log(data); // Handle the responsee
   };
 
   return (
