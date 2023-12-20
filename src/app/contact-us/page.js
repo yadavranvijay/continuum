@@ -24,11 +24,14 @@ export default function ContactForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <div className="page-content">
+     <form onSubmit={handleSubmit}>
       <input type="text" id="name" name="name" required />
       <input type="email" id="email" name="email" required />
       <textarea id="message" name="message" required></textarea>
       <button type="submit">Send</button>
     </form>
+    </div>
+   
   );
 }
